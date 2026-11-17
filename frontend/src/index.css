@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0A0F1D] text-gray-100 font-sans;
+  }
+}
+
+/* Custom scrollbars for control room feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0F1D;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F2937;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* Leaflet map custom controls */
+.leaflet-container {
+  background: #0A0F1D !important;
+  font-family: inherit;
+}
+.leaflet-bar a {
+  background-color: #111827 !important;
+  color: #F3F4F6 !important;
+  border-color: #374151 !important;
+}
+.leaflet-popup-content-wrapper {
+  background-color: #111827 !important;
+  color: #F3F4F6 !important;
+  border: 1px solid #374151;
+  border-radius: 8px;
+}
+.leaflet-popup-tip {
+  background-color: #111827 !important;
+}

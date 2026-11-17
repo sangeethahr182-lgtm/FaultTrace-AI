@@ -1,0 +1,144 @@
+# SYNTHETIC DEMO DATA - BESCOM Power Hack 2026 Theme 10
+id,timestamp,transformer_id,section_id,category,source,description
+1,2026-11-17T16:58:45.014042,DT-14,F4-S15,SPARK_REPORTED,APP,Severe tree branch spark observed on 11kV conductor near section S14
+2,2026-11-17T17:03:14.014042,DT-04,F4-S4,VOLTAGE_FLUCTUATION,IVRS,Momentary voltage dip during thunderclap
+3,2026-11-17T17:01:11.014042,DT-04,F4-S4,VOLTAGE_FLUCTUATION,CALL_CENTER,Momentary voltage dip during thunderclap
+4,2026-11-17T16:57:19.014042,DT-12,F4-S14,SPARK_REPORTED,CALL_CENTER,Severe tree branch spark observed on 11kV conductor near section S14
+5,2026-11-17T17:05:53.014042,DT-14,F4-S15,SPARK_REPORTED,CALL_CENTER,Severe tree branch spark observed on 11kV conductor near section S14
+6,2026-11-17T17:04:02.014042,DT-12,F4-S14,SPARK_REPORTED,IVRS,Severe tree branch spark observed on 11kV conductor near section S14
+7,2026-11-17T17:01:14.014042,DT-16,F4-S16,SPARK_REPORTED,APP,Severe tree branch spark observed on 11kV conductor near section S14
+8,2026-11-17T17:06:45.014042,DT-16,F4-S16,SPARK_REPORTED,CALL_CENTER,Severe tree branch spark observed on 11kV conductor near section S14
+9,2026-11-17T17:09:01.014042,DT-13,F4-S14,VOLTAGE_FLUCTUATION,IVRS,Lights dimmed drastically before total blackout
+10,2026-11-17T17:08:36.014042,DT-11,F4-S4,VOLTAGE_FLUCTUATION,SMS,Momentary voltage dip during thunderclap
+11,2026-11-17T17:04:15.014042,DT-13,F4-S14,VOLTAGE_FLUCTUATION,CALL_CENTER,Lights dimmed drastically before total blackout
+12,2026-11-17T17:06:04.014042,DT-12,F4-S14,VOLTAGE_FLUCTUATION,APP,Lights dimmed drastically before total blackout
+13,2026-11-17T17:01:30.014042,DT-14,F4-S15,VOLTAGE_FLUCTUATION,IVRS,Lights dimmed drastically before total blackout
+14,2026-11-17T17:10:05.014042,DT-12,F4-S14,VOLTAGE_FLUCTUATION,CALL_CENTER,Lights dimmed drastically before total blackout
+15,2026-11-17T17:05:03.014042,DT-14,F4-S15,VOLTAGE_FLUCTUATION,CALL_CENTER,Lights dimmed drastically before total blackout
+16,2026-11-17T16:56:37.014042,DT-14,F4-S15,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+17,2026-11-17T16:59:28.014042,DT-13,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+18,2026-11-17T16:56:54.014042,DT-16,F4-S16,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+19,2026-11-17T16:57:59.014042,DT-12,F4-S14,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+20,2026-11-17T17:01:51.014042,DT-12,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+21,2026-11-17T17:05:45.014042,DT-14,F4-S15,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+22,2026-11-17T17:00:42.014042,DT-12,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+23,2026-11-17T17:08:58.014042,DT-04,F4-S4,VOLTAGE_FLUCTUATION,CALL_CENTER,Momentary voltage dip during thunderclap
+24,2026-11-17T16:58:48.014042,DT-14,F4-S15,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+25,2026-11-17T17:04:53.014042,DT-12,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+26,2026-11-17T17:03:29.014042,DT-12,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+27,2026-11-17T17:03:24.014042,DT-12,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+28,2026-11-17T16:58:37.014042,DT-16,F4-S16,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+29,2026-11-17T17:00:19.014042,DT-12,F4-S14,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+30,2026-11-17T17:03:47.014042,DT-14,F4-S15,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+31,2026-11-17T17:01:14.014042,DT-04,F4-S4,VOLTAGE_FLUCTUATION,APP,Momentary voltage dip during thunderclap
+32,2026-11-17T17:03:35.014042,DT-11,F4-S4,VOLTAGE_FLUCTUATION,APP,Momentary voltage dip during thunderclap
+33,2026-11-17T17:07:40.014042,DT-12,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+34,2026-11-17T17:07:35.014042,DT-14,F4-S15,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+35,2026-11-17T17:05:57.014042,DT-16,F4-S16,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+36,2026-11-17T17:09:52.014042,DT-16,F4-S16,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+37,2026-11-17T16:58:33.014042,DT-14,F4-S15,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+38,2026-11-17T16:56:39.014042,DT-14,F4-S15,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+39,2026-11-17T17:01:22.014042,DT-11,F4-S4,VOLTAGE_FLUCTUATION,SMS,Momentary voltage dip during thunderclap
+40,2026-11-17T16:57:46.014042,DT-16,F4-S16,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+41,2026-11-17T16:56:36.014042,DT-04,F4-S4,VOLTAGE_FLUCTUATION,IVRS,Momentary voltage dip during thunderclap
+42,2026-11-17T17:08:47.014042,DT-16,F4-S16,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+43,2026-11-17T17:08:35.014042,DT-12,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+44,2026-11-17T17:09:26.014042,DT-16,F4-S16,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+45,2026-11-17T16:57:13.014042,DT-16,F4-S16,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+46,2026-11-17T16:58:01.014042,DT-16,F4-S16,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+47,2026-11-17T16:56:04.014042,DT-11,F4-S4,VOLTAGE_FLUCTUATION,SMS,Momentary voltage dip during thunderclap
+48,2026-11-17T17:04:55.014042,DT-14,F4-S15,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+49,2026-11-17T17:09:24.014042,DT-12,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+50,2026-11-17T17:01:55.014042,DT-13,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+51,2026-11-17T16:58:15.014042,DT-12,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+52,2026-11-17T17:00:55.014042,DT-14,F4-S15,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+53,2026-11-17T17:02:47.014042,DT-14,F4-S15,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+54,2026-11-17T16:58:59.014042,DT-14,F4-S15,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+55,2026-11-17T16:58:24.014042,DT-16,F4-S16,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+56,2026-11-17T16:58:53.014042,DT-13,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+57,2026-11-17T17:03:38.014042,DT-13,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+58,2026-11-17T17:06:34.014042,DT-14,F4-S15,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+59,2026-11-17T17:02:21.014042,DT-12,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+60,2026-11-17T17:01:51.014042,DT-12,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+61,2026-11-17T17:08:35.014042,DT-13,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+62,2026-11-17T17:07:15.014042,DT-14,F4-S15,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+63,2026-11-17T17:08:23.014042,DT-16,F4-S16,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+64,2026-11-17T17:02:57.014042,DT-13,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+65,2026-11-17T17:10:52.014042,DT-11,F4-S4,VOLTAGE_FLUCTUATION,APP,Momentary voltage dip during thunderclap
+66,2026-11-17T17:07:16.014042,DT-12,F4-S14,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+67,2026-11-17T17:07:35.014042,DT-16,F4-S16,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+68,2026-11-17T17:00:32.014042,DT-13,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+69,2026-11-17T17:02:39.014042,DT-12,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+70,2026-11-17T16:59:54.014042,DT-04,F4-S4,VOLTAGE_FLUCTUATION,SMS,Momentary voltage dip during thunderclap
+71,2026-11-17T17:01:24.014042,DT-16,F4-S16,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+72,2026-11-17T16:57:38.014042,DT-13,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+73,2026-11-17T17:00:55.014042,DT-11,F4-S4,VOLTAGE_FLUCTUATION,SMS,Momentary voltage dip during thunderclap
+74,2026-11-17T17:05:56.014042,DT-16,F4-S16,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+75,2026-11-17T16:58:48.014042,DT-13,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+76,2026-11-17T17:04:22.014042,DT-12,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+77,2026-11-17T17:10:39.014042,DT-14,F4-S15,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+78,2026-11-17T17:04:04.014042,DT-11,F4-S4,VOLTAGE_FLUCTUATION,APP,Momentary voltage dip during thunderclap
+79,2026-11-17T16:58:12.014042,DT-16,F4-S16,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+80,2026-11-17T16:56:13.014042,DT-12,F4-S14,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+81,2026-11-17T17:06:32.014042,DT-16,F4-S16,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+82,2026-11-17T17:00:54.014042,DT-12,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+83,2026-11-17T16:58:09.014042,DT-16,F4-S16,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+84,2026-11-17T16:56:03.014042,DT-13,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+85,2026-11-17T17:07:54.014042,DT-12,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+86,2026-11-17T17:05:13.014042,DT-12,F4-S14,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+87,2026-11-17T16:59:40.014042,DT-07,F4-S4,VOLTAGE_FLUCTUATION,IVRS,Momentary voltage dip during thunderclap
+88,2026-11-17T17:02:08.014042,DT-12,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+89,2026-11-17T17:08:38.014042,DT-12,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+90,2026-11-17T17:05:32.014042,DT-14,F4-S15,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+91,2026-11-17T17:08:50.014042,DT-07,F4-S4,VOLTAGE_FLUCTUATION,APP,Momentary voltage dip during thunderclap
+92,2026-11-17T17:04:44.014042,DT-14,F4-S15,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+93,2026-11-17T17:08:19.014042,DT-12,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+94,2026-11-17T17:08:13.014042,DT-14,F4-S15,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+95,2026-11-17T17:10:33.014042,DT-16,F4-S16,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+96,2026-11-17T17:04:13.014042,DT-14,F4-S15,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+97,2026-11-17T17:07:58.014042,DT-13,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+98,2026-11-17T17:00:06.014042,DT-13,F4-S14,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+99,2026-11-17T16:58:40.014042,DT-16,F4-S16,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+100,2026-11-17T16:59:14.014042,DT-13,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+101,2026-11-17T17:09:32.014042,DT-14,F4-S15,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+102,2026-11-17T17:07:54.014042,DT-16,F4-S16,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+103,2026-11-17T16:59:40.014042,DT-14,F4-S15,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+104,2026-11-17T17:09:53.014042,DT-13,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+105,2026-11-17T17:01:53.014042,DT-14,F4-S15,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+106,2026-11-17T17:02:07.014042,DT-13,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+107,2026-11-17T17:07:23.014042,DT-14,F4-S15,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+108,2026-11-17T17:10:41.014042,DT-12,F4-S14,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+109,2026-11-17T16:56:12.014042,DT-12,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+110,2026-11-17T17:05:37.014042,DT-12,F4-S14,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+111,2026-11-17T17:02:18.014042,DT-16,F4-S16,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+112,2026-11-17T16:58:30.014042,DT-13,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+113,2026-11-17T17:10:54.014042,DT-12,F4-S14,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+114,2026-11-17T17:01:01.014042,DT-14,F4-S15,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+115,2026-11-17T17:02:27.014042,DT-04,F4-S4,VOLTAGE_FLUCTUATION,CALL_CENTER,Momentary voltage dip during thunderclap
+116,2026-11-17T17:09:35.014042,DT-16,F4-S16,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+117,2026-11-17T17:03:41.014042,DT-04,F4-S4,VOLTAGE_FLUCTUATION,SMS,Momentary voltage dip during thunderclap
+118,2026-11-17T17:05:42.014042,DT-16,F4-S16,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+119,2026-11-17T17:03:08.014042,DT-13,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+120,2026-11-17T17:07:09.014042,DT-07,F4-S4,VOLTAGE_FLUCTUATION,IVRS,Momentary voltage dip during thunderclap
+121,2026-11-17T16:59:52.014042,DT-04,F4-S4,VOLTAGE_FLUCTUATION,IVRS,Momentary voltage dip during thunderclap
+122,2026-11-17T17:05:39.014042,DT-16,F4-S16,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+123,2026-11-17T17:03:05.014042,DT-13,F4-S14,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+124,2026-11-17T16:56:37.014042,DT-07,F4-S4,VOLTAGE_FLUCTUATION,APP,Momentary voltage dip during thunderclap
+125,2026-11-17T17:10:34.014042,DT-13,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+126,2026-11-17T17:06:50.014042,DT-12,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+127,2026-11-17T16:58:05.014042,DT-13,F4-S14,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+128,2026-11-17T16:59:33.014042,DT-16,F4-S16,NO_POWER,SMS,Sudden complete power cut reported via 1912 IVRS
+129,2026-11-17T16:56:08.014042,DT-16,F4-S16,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+130,2026-11-17T17:01:29.014042,DT-04,F4-S4,VOLTAGE_FLUCTUATION,IVRS,Momentary voltage dip during thunderclap
+131,2026-11-17T16:56:30.014042,DT-16,F4-S16,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+132,2026-11-17T17:00:29.014042,DT-16,F4-S16,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+133,2026-11-17T17:03:43.014042,DT-11,F4-S4,VOLTAGE_FLUCTUATION,CALL_CENTER,Momentary voltage dip during thunderclap
+134,2026-11-17T17:03:44.014042,DT-13,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+135,2026-11-17T16:59:32.014042,DT-13,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+136,2026-11-17T17:02:30.014042,DT-12,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+137,2026-11-17T17:02:42.014042,DT-12,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+138,2026-11-17T17:09:05.014042,DT-13,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+139,2026-11-17T17:04:54.014042,DT-13,F4-S14,NO_POWER,APP,Sudden complete power cut reported via 1912 IVRS
+140,2026-11-17T17:09:37.014042,DT-14,F4-S15,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS
+141,2026-11-17T16:59:18.014042,DT-14,F4-S15,NO_POWER,CALL_CENTER,Sudden complete power cut reported via 1912 IVRS
+142,2026-11-17T17:07:18.014042,DT-12,F4-S14,NO_POWER,IVRS,Sudden complete power cut reported via 1912 IVRS

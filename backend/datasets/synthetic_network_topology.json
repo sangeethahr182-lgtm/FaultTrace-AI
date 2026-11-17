@@ -1,0 +1,671 @@
+{
+  "_notice": "SYNTHETIC DEMO DATA - BESCOM Power Hack 2026 Theme 10",
+  "feeders": [
+    {
+      "id": "F4",
+      "code": "F4",
+      "name": "11kV Manyata Tech Park Feeder (Synthetic)",
+      "capacity_amps": 400.0
+    },
+    {
+      "id": "F3",
+      "code": "F3",
+      "name": "11kV Nagawara Feeder (Synthetic)",
+      "capacity_amps": 400.0
+    },
+    {
+      "id": "F1",
+      "code": "F1",
+      "name": "11kV RT Nagar Feeder (Synthetic)",
+      "capacity_amps": 400.0
+    },
+    {
+      "id": "F2",
+      "code": "F2",
+      "name": "11kV Sahakar Nagar Feeder (Synthetic)",
+      "capacity_amps": 400.0
+    }
+  ],
+  "line_sections": [
+    {
+      "id": "F4-S1",
+      "feeder_id": "F4",
+      "upstream_id": null,
+      "length_km": 0.4,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0358,
+        77.597
+      ],
+      "end_coords": [
+        13.0378,
+        77.598
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S2",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S1",
+      "length_km": 0.5,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0378,
+        77.598
+      ],
+      "end_coords": [
+        13.0398,
+        77.599
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S3",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S2",
+      "length_km": 0.5,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0398,
+        77.599
+      ],
+      "end_coords": [
+        13.0418,
+        77.6
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S4",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S3",
+      "length_km": 0.4,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0418,
+        77.6
+      ],
+      "end_coords": [
+        13.0438,
+        77.601
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S5",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S4",
+      "length_km": 0.6,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0438,
+        77.601
+      ],
+      "end_coords": [
+        13.0458,
+        77.602
+      ],
+      "has_fault_indicator": true,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S6",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S5",
+      "length_km": 0.5,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0448,
+        77.599
+      ],
+      "end_coords": [
+        13.0468,
+        77.6
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S7",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S6",
+      "length_km": 0.4,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0458,
+        77.598
+      ],
+      "end_coords": [
+        13.0478,
+        77.599
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S8",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S7",
+      "length_km": 0.5,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0468,
+        77.597
+      ],
+      "end_coords": [
+        13.0488,
+        77.598
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S9",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S8",
+      "length_km": 0.4,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0478,
+        77.596
+      ],
+      "end_coords": [
+        13.0498,
+        77.597
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S10",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S9",
+      "length_km": 0.5,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0488,
+        77.595
+      ],
+      "end_coords": [
+        13.0508,
+        77.596
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S11",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S5",
+      "length_km": 0.6,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0458,
+        77.603
+      ],
+      "end_coords": [
+        13.0478,
+        77.604
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S12",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S11",
+      "length_km": 0.5,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0478,
+        77.605
+      ],
+      "end_coords": [
+        13.0498,
+        77.606
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S13",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S12",
+      "length_km": 0.5,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0498,
+        77.607
+      ],
+      "end_coords": [
+        13.0518,
+        77.608
+      ],
+      "has_fault_indicator": true,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S14",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S13",
+      "length_km": 0.7,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0518,
+        77.609
+      ],
+      "end_coords": [
+        13.0538,
+        77.61
+      ],
+      "has_fault_indicator": true,
+      "status": "FAULTED"
+    },
+    {
+      "id": "F4-S15",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S14",
+      "length_km": 0.5,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0538,
+        77.61
+      ],
+      "end_coords": [
+        13.0558,
+        77.611
+      ],
+      "has_fault_indicator": false,
+      "status": "DE_ENERGIZED"
+    },
+    {
+      "id": "F4-S16",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S15",
+      "length_km": 0.6,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0558,
+        77.612
+      ],
+      "end_coords": [
+        13.0578,
+        77.613
+      ],
+      "has_fault_indicator": false,
+      "status": "DE_ENERGIZED"
+    },
+    {
+      "id": "F4-S17",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S13",
+      "length_km": 0.5,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0498,
+        77.61
+      ],
+      "end_coords": [
+        13.0518,
+        77.611
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S18",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S17",
+      "length_km": 0.4,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0508,
+        77.612
+      ],
+      "end_coords": [
+        13.0528,
+        77.613
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S19",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S18",
+      "length_km": 0.5,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0518,
+        77.614
+      ],
+      "end_coords": [
+        13.0538,
+        77.615
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F4-S20",
+      "feeder_id": "F4",
+      "upstream_id": "F4-S19",
+      "length_km": 0.4,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0528,
+        77.616
+      ],
+      "end_coords": [
+        13.0548,
+        77.617
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F3-S1",
+      "feeder_id": "F3",
+      "upstream_id": null,
+      "length_km": 0.8,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.0358,
+        77.597
+      ],
+      "end_coords": [
+        13.038,
+        77.605
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "F3-S2",
+      "feeder_id": "F3",
+      "upstream_id": "F3-S1",
+      "length_km": 1.2,
+      "rated_capacity_amps": 400.0,
+      "start_coords": [
+        13.038,
+        77.605
+      ],
+      "end_coords": [
+        13.045,
+        77.615
+      ],
+      "has_fault_indicator": false,
+      "status": "ENERGIZED"
+    }
+  ],
+  "transformers": [
+    {
+      "id": "DT-01",
+      "section_id": "F4-S1",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0378,
+        77.598
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-02",
+      "section_id": "F4-S2",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0398,
+        77.599
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-03",
+      "section_id": "F4-S4",
+      "capacity_kva": 315.0,
+      "coords": [
+        13.0438,
+        77.601
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-04",
+      "section_id": "F4-S5",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0458,
+        77.602
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-05",
+      "section_id": "F4-S6",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0468,
+        77.6
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-06",
+      "section_id": "F4-S8",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0488,
+        77.598
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-07",
+      "section_id": "F4-S9",
+      "capacity_kva": 315.0,
+      "coords": [
+        13.0498,
+        77.597
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-08",
+      "section_id": "F4-S10",
+      "capacity_kva": 500.0,
+      "coords": [
+        13.0508,
+        77.596
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-09",
+      "section_id": "F4-S11",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0478,
+        77.604
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-10",
+      "section_id": "F4-S12",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0498,
+        77.606
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-11",
+      "section_id": "F4-S13",
+      "capacity_kva": 315.0,
+      "coords": [
+        13.0518,
+        77.608
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-12",
+      "section_id": "F4-S14",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0538,
+        77.61
+      ],
+      "status": "DE_ENERGIZED"
+    },
+    {
+      "id": "DT-13",
+      "section_id": "F4-S14",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0545,
+        77.6105
+      ],
+      "status": "DE_ENERGIZED"
+    },
+    {
+      "id": "DT-14",
+      "section_id": "F4-S15",
+      "capacity_kva": 315.0,
+      "coords": [
+        13.0558,
+        77.611
+      ],
+      "status": "DE_ENERGIZED"
+    },
+    {
+      "id": "DT-16",
+      "section_id": "F4-S16",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0578,
+        77.613
+      ],
+      "status": "DE_ENERGIZED"
+    },
+    {
+      "id": "DT-17",
+      "section_id": "F4-S17",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0518,
+        77.611
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-18",
+      "section_id": "F4-S18",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0528,
+        77.613
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-19",
+      "section_id": "F4-S19",
+      "capacity_kva": 250.0,
+      "coords": [
+        13.0538,
+        77.615
+      ],
+      "status": "ENERGIZED"
+    },
+    {
+      "id": "DT-20",
+      "section_id": "F4-S20",
+      "capacity_kva": 315.0,
+      "coords": [
+        13.0548,
+        77.617
+      ],
+      "status": "ENERGIZED"
+    }
+  ],
+  "switches": [
+    {
+      "id": "CB-F4",
+      "section_id": "F4-S1",
+      "switch_type": "BREAKER",
+      "normal_state": "CLOSED",
+      "current_state": "OPEN",
+      "coords": [
+        13.0358,
+        77.597
+      ],
+      "adjacent_feeder_id": null
+    },
+    {
+      "id": "CB-F3",
+      "section_id": "F3-S1",
+      "switch_type": "BREAKER",
+      "normal_state": "CLOSED",
+      "current_state": "CLOSED",
+      "coords": [
+        13.0358,
+        77.597
+      ],
+      "adjacent_feeder_id": null
+    },
+    {
+      "id": "AB-05",
+      "section_id": "F4-S5",
+      "switch_type": "AIR_BREAK",
+      "normal_state": "CLOSED",
+      "current_state": "CLOSED",
+      "coords": [
+        13.0458,
+        77.602
+      ],
+      "adjacent_feeder_id": null
+    },
+    {
+      "id": "AB-11",
+      "section_id": "F4-S11",
+      "switch_type": "AIR_BREAK",
+      "normal_state": "CLOSED",
+      "current_state": "CLOSED",
+      "coords": [
+        13.0478,
+        77.604
+      ],
+      "adjacent_feeder_id": null
+    },
+    {
+      "id": "AB-14",
+      "section_id": "F4-S14",
+      "switch_type": "AIR_BREAK",
+      "normal_state": "CLOSED",
+      "current_state": "CLOSED",
+      "coords": [
+        13.0538,
+        77.61
+      ],
+      "adjacent_feeder_id": null
+    },
+    {
+      "id": "TS-08",
+      "section_id": "F4-S16",
+      "switch_type": "TIE_SWITCH",
+      "normal_state": "OPEN",
+      "current_state": "OPEN",
+      "coords": [
+        13.0578,
+        77.613
+      ],
+      "adjacent_feeder_id": "F3"
+    }
+  ]
+}

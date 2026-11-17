@@ -1,0 +1,19 @@
+{
+  "features": [
+    "complaint_count",
+    "downstream_complaints",
+    "consumer_outage_density",
+    "downstream_dt_outage_count",
+    "voltage_drop_avg",
+    "breaker_tripped",
+    "spark_reports",
+    "wind_gust_kmh",
+    "rainfall_mm",
+    "lightning_strikes",
+    "historical_fault_freq",
+    "section_length_km",
+    "has_fault_indicator",
+    "fci_triggered",
+    "depth_from_substation"
+  ]
+}
