@@ -3,7 +3,7 @@ import pytest
 from app.database.session import SessionLocal
 from app.main import root, health
 from app.api.dashboard import get_dashboard_overview
-from app.api.feeders import list_feeders, get_feeder_topology
+from app.api.feeders import list_feeders, get_feeder_topology, get_nearest_asset_by_gps
 from app.api.weather import get_weather
 from app.api.analytics import get_model_metrics, get_operational_trends
 from app.api.events import ingest_event, upload_dataset, DataUploadPayload
@@ -45,6 +45,15 @@ def test_feeders_and_topology_endpoint(db_session):
     assert len(topo.edges) >= 15
     assert any(n.id == "F4-S14" for n in topo.nodes)
     assert any(n.id == "TS-08" for n in topo.nodes)
+
+def test_nearest_asset_gps_endpoint(db_session):
+    res = get_nearest_asset_by_gps("F4", 13.0538, 77.6100, db_session)
+    assert res.gps_lat == 13.0538
+    assert res.gps_lng == 77.6100
+    assert res.nearest_asset is not None
+    assert res.nearest_asset.distance_meters >= 0
+    assert "SYNTHETIC DEMO DATA" in res.synthetic_notice
+    assert len(res.nearby_assets) > 0
 
 def test_weather_endpoint():
     w = get_weather()

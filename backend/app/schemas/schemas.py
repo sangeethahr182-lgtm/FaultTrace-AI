@@ -182,3 +182,26 @@ class MLMetricsResponse(SyntheticBadgeMixin):
     confusion_matrix: List[List[int]]
     feature_importances: Dict[str, float]
     synthetic_training_statement: str
+
+# GPS Nearest Asset Schemas
+class AssetDistanceItem(BaseModel):
+    id: str
+    label: str
+    type: str  # SUBSTATION, SECTION, TRANSFORMER, CRITICAL_LOAD, SWITCH, BREAKER
+    status: str
+    lat: float
+    lng: float
+    distance_meters: float
+    distance_km: float
+    is_critical: bool = False
+    metadata: Optional[Dict[str, Any]] = None
+
+class NearestAssetResponse(SyntheticBadgeMixin):
+    gps_lat: float
+    gps_lng: float
+    feeder_id: str
+    nearest_asset: Optional[AssetDistanceItem] = None
+    distance_to_fault_span_km: Optional[float] = None
+    distance_to_substation_km: Optional[float] = None
+    nearby_assets: List[AssetDistanceItem] = []
+

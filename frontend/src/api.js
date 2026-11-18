@@ -87,3 +87,9 @@ export async function uploadData(payload) {
   if (!res.ok) throw new Error(`Upload failed: ${res.status}`);
   return res.json();
 }
+
+export async function fetchNearestAssetByGPS(feederId, lat, lng) {
+  const res = await fetch(`${API_BASE}/feeders/${feederId}/nearest-asset?lat=${lat}&lng=${lng}`);
+  if (!res.ok) throw new Error(`Nearest asset lookup failed: ${res.status}`);
+  return res.json();
+}
